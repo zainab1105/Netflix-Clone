@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+.header-img{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.8) 100%),
+    url('img/netflix-header.jpeg');
+    z-index: 1;
+    background-position: 50% 72.5%;
+    background-size: 125%;
+    background-repeat: no-repeat;
+    height: 2760px;
+    width: 100%;
+    opacity: 0.6;
+    margin-top: -14px;
+    z-index: 1;
+}
+#logo{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 635px;
+    z-index: 2;
+}
+#netflix-logo{
+    height: 196px;
+    width: 628px;
+}
+#language{
+    list-style-type: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 90px;
+    border: 9px solid white;
+    z-index: 2;
+    margin-top: 106px;
+    margin-left: 4447px;
+    padding: 0px 98px;
+}
