@@ -1,5 +1,5 @@
-body{
-    background-color: black;
+body {
+    background-color: black !important;
     overflow-x: hidden;
 }
 .header-img{
@@ -7,11 +7,10 @@ body{
     flex-direction: row;
     list-style-type: none;
     position: relative;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.8) 100%),
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0) 70%, rgba(0, 0, 0, 0.8) 100%), 
     url('img/netflix-header.jpeg');
-    z-index: 1;
-    background-position: 50% 72.5%;
-    background-size: 125%;
+    background-position: 52% 71.5%;
+    background-size: 124%;
     background-repeat: no-repeat;
     height: 2760px;
     width: 100%;
@@ -19,24 +18,56 @@ body{
     margin-top: -14px;
     z-index: 1;
 }
-#logo{
+.header-button{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+#logo {
     position: absolute;
-    margin-top: 70px;
-    margin-left: 635px;
+    top: 20px;
+    left: 20px;
     z-index: 2;
 }
-#netflix-logo{
-    height: 196px;
-    width: 628px;
+#netflix-logo {
+    height: 197px;
+    width: auto;
+    margin-left: 650px;
+    margin-top: 67px;
 }
-#language{
-    list-style-type: none;
+.dropdown {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+}
+
+.dropdown button {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 90px;
-    border: 9px solid white;
-    z-index: 2;
-    margin-top: 106px;
-    margin-left: 4447px;
-    padding: 0px 98px;
+    font-size: 75px;
+    text-align: left;
+    border: 15px solid white;
+    border-radius: 30px;
+    padding: 10px 86px;
+    margin-left: 4441px;
+    margin-top: 103px;
+    background: transparent;
+}
+.dropdown img{
+    width: 90px;
+    margin-top: -17px;
+    margin-right: 20px;
+}
+.dropdown-item{
+    width: 576px !important; 
+    height: 110px;
+    color: black !important;
+    font-size: 70px;
+    border: 1px solid black !important;
+    text-align: center !important;
+    background-color: white !important;
+}
+.dropdown-item:hover{
+    background-color: lightskyblue !important;
 }
