@@ -2,72 +2,145 @@ body {
     background-color: black !important;
     overflow-x: hidden;
 }
-.header-img{
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
+.header-content {
     position: relative;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0) 70%, rgba(0, 0, 0, 0.8) 100%), 
-    url('img/netflix-header.jpeg');
-    background-position: 52% 71.5%;
-    background-size: 124%;
-    background-repeat: no-repeat;
     height: 2760px;
     width: 100%;
-    opacity: 0.6;
-    margin-top: -14px;
-    z-index: 1;
 }
-.header-button{
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
+.header-content::before {
+    content: "";
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0) 70%, rgba(0, 0, 0, 0.8) 100%), 
+    url('img/netflix-header.jpeg');
+    background-position: 53% 70.5%;
+    background-size: 125%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
 }
 #logo {
     position: absolute;
-    top: 20px;
+    margin-top: 10px;
     left: 20px;
     z-index: 2;
 }
 #netflix-logo {
-    height: 197px;
+    height: 195px;
     width: auto;
     margin-left: 650px;
     margin-top: 67px;
 }
 .dropdown {
+    display: flex;
     position: absolute;
     top: 20px;
     right: 20px;
     z-index: 2;
 }
-
 .dropdown button {
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 68px;
     text-align: left;
-    border: 15px solid white;
-    border-radius: 30px;
-    padding: 10px 86px;
-    margin-left: 4441px;
-    margin-top: 103px;
+    border-radius: 21px;
+    padding: 10px 88px;
+    margin-left: 4450px;
+    margin-top: 100px;
     background: transparent;
+}
+.dropdown button:hover {
+    border: 1px solid white !important;
+    background-color: transparent !important;
 }
 .dropdown img{
     width: 90px;
     margin-top: -17px;
-    margin-right: 20px;
+    margin-right: -26px;
 }
 .dropdown-item{
-    width: 576px !important; 
-    height: 110px;
+    width: 480px !important; 
+    height: 100px;
     color: black !important;
     font-size: 70px;
     border: 1px solid black !important;
+    border-top-left-radius: 40px !important;
+    border-right: none !important;
+    border-left: none !important;
     text-align: center !important;
     background-color: white !important;
 }
 .dropdown-item:hover{
     background-color: lightskyblue !important;
+}
+#lang{
+    margin-left: -31px;
+    margin-right: 23px;
+    width: 75px;
+    height: auto;
+}
+.sign-in-button{
+    margin-top: -112px;
+}
+.sign-in-button button{
+    list-style-type: none;
+    cursor: pointer;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    border: 1px solid rgb(229, 9, 20);
+    background-color: rgb(229, 9, 20);
+    border-radius: 24px;
+    padding: 23px 54px;
+    margin-left: 5040px;
+    margin-top: 9px;
+}
+.sign-in-button button:hover{
+    background-color: rgba(153, 22, 29);
+}
+.email-validation{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin-top: 880px;
+    text-align: center;
+}
+.capt-text1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 202px;
+    letter-spacing: 1px;
+}
+.capt-text2{
+    font-size: 100px;
+    font-weight: 400;
+    margin-top: 70px;
+}
+.capt-text3{
+    font-size: 86px;
+    margin-top: 100px;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+.mb-3{
+    margin-left: 1850px;
+    margin-top: 70px;
+    color: rgb(160, 160, 160);
+    font-size: 70px;
+    text-align: center;
+}
+.form-control{
+    width: 1480px !important;
+    height: 220px !important;
+    background-color: rgba(0, 0, 0, 0.418) !important;
+    border: 1px solid rgba(149, 149, 149, 0.784) !important;
+}
+#caption{
+    margin-top: 40px;
+    margin-left: 50px;
 }
