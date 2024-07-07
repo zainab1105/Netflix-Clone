@@ -84,10 +84,10 @@ body {
 }
 .sign-in-button{
     margin-top: -112px;
+    cursor: pointer;
 }
 .sign-in-button button{
     list-style-type: none;
-    cursor: pointer;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
@@ -99,8 +99,10 @@ body {
     padding: 23px 54px;
     margin-left: 5040px;
     margin-top: 9px;
+    cursor: pointer !important;
 }
 .sign-in-button button:hover{
+    border: 1px solid rgba(153, 22, 29);
     background-color: rgba(153, 22, 29);
 }
 .email-validation{
