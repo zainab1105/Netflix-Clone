@@ -173,7 +173,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
 }
-.tv1{
+.netflix-demo-tv{
     display: grid;
     grid-template-columns: auto auto;
     border: 30px solid rgba(128, 128, 128, 0.381);
@@ -182,13 +182,13 @@ body {
     color: white;
 }
 .title1{
-    margin-top: 810px;
+    margin-top: 770px;
     margin-left: 730px;
     line-height: 1.5;
 }
 .tv img{
     position: relative;
-    margin-top: 351px;
+    margin-top: 243px;
     height: auto;
     width: 2288px;
     z-index: 1;
@@ -196,9 +196,22 @@ body {
 .overly-video{
     position: absolute;
     left: 3702px;
-    margin-top: 687px;
+    margin-top: 601px;
     width: 1663px;
     max-width: 100%;
     height: auto;
     justify-content: left;
+}
+.show-demo{
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 30px solid rgba(128, 128, 128, 0.381);
+    border-right: none;
+    border-left: none;
+    color: white;
+    justify-content: center;
+}
+.stranger-things-on-screen{
+    height: 1700px;
+    width: auto;
 }
