@@ -11,12 +11,11 @@
         <title>Netflix Clone</title>
     </head>
     <body>
-        <section>
-            <div class="header">
-                <div class="header-content">
-                    <ul>
-                        <li id="logo"><img id="netflix-logo" src="img/logo.png" alt="netflix_logo"></li>
-                        <li>
+        <section class="Netflix-top">
+            <div class="header-content">
+                <ul>
+                    <li id="logo"><img id="netflix-logo" src="img/logo.png" alt="netflix_logo"></li>
+                    <li>
                             <div class="dropdown">
                                 <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <img id="lang" src="img/lang.png" alt="language_logo">English<i class="fa-solid caret fa-caret-down"></i>
@@ -34,12 +33,25 @@
                                 <h2 class="capt-text3">Ready to watch? Enter your email to create or restart your membership.</h2>
                                 <div class="form-floating mb-3">
                                     <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                                    <label for="floatingInput" id="caption">Email address</label>
+                                    <label for="floatingInput" id="input-caption">Email address</label>
                                 </div>
+                                <p class="get-started-button"><button>Get Started</button><i class="fa-solid right-angle fa-angle-right"></i></p>
                             </div>
                         </li>
                     </ul>
                 </div>
+                <section>
+                    <div class="tv1">
+                        <div class="title1">
+                            <p class="capt-text1">Enjoy on your TV</p>
+                            <p class="capt-text2">Watch on smart TVs, PlayStation, Xbox, Chromecast, <br> Apple TV, Blu-ray players and more.</p>
+                        </div>
+                        <div class="tv">
+                            <img src="img/tv.png" alt="TV Image">
+                            <video class="overly-video" src="img/video-tv-in-0819.m4v" loop autoplay ></video>
+                        </div>
+                    </div>
+                </section>
             </div>
         </section>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
