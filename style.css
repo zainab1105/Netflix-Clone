@@ -115,7 +115,7 @@ body {
     font-weight: 900;
     font-style: normal;
     font-size: 202px;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
 }
 .capt-text2{
     font-size: 100px;
@@ -132,19 +132,31 @@ body {
     margin-left: 1817px;
     margin-top: 70px;
     color: rgb(177, 176, 176);
-    font-size: 62px;
-    font-weight: 500px;
-    text-align: center;
+    font-size: 57px !important;
+    font-weight: 500 !important;
+    text-align: center !important;
 }
 .form-control{
     width: 1519px !important;
     height: 235px !important;
+    color: white !important;
+    font-size: 62px !important;
     background-color: rgba(0, 0, 0, 0.418) !important;
     border: 1px solid rgba(149, 149, 149, 0.784) !important;
 }
+:root, [data-bs-theme=light] {
+    --bs-body-bg: transparent !important;
+    --bs-body-color-rgb: white !important;
+}
+.form-floating>.form-control, .form-floating>.form-control-plaintext {
+    padding: 8rem 3.75rem !important;
+}
 #input-caption{
-    margin-top: 44px;
+    margin-top: 30px;
     margin-left: 47px;
+}
+#input-caption:hover{
+    background-color: transparent !important;
 }
 .get-started-button button{
     position: absolute;
@@ -301,7 +313,7 @@ body {
     grid-template-columns: auto auto;
     justify-content: center;
     gap: 300px;
-    border: 40px solid rgba(88, 88, 88, 0.381);
+    border: 45px solid rgba(88, 88, 88, 0.381);
     border-right: none;
     border-left: none;
     border-top: none;
@@ -316,4 +328,168 @@ body {
 }
 .kids-profile-caption{
     margin-top: 710px;
+}
+.faq{
+    color: white;
+    margin-top: 200px;
+    text-align: center;
+    line-height: 2.1;
+    letter-spacing: 2;
+}
+.accordion{
+    --bs-accordion-bg: transparent !important;
+    --bs-accordion-border-color: transparent !important;
+}
+.accordion-item{
+    justify-content: center !important;
+    margin-left: 700px !important;
+}
+.accordion-button {
+    height: 353px !important;
+    width: 4680px !important;
+    color: white !important;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 100px !important;
+    font-weight: 400 !important;
+    text-align: left !important;
+    background-color: rgb(41, 41, 41) !important;
+    margin-bottom: 20px;
+}
+.accordion-button:hover{
+    background-color: rgb(57, 57, 57) !important;
+}
+.plus{
+    position: absolute;
+    font-size: 140px;
+}
+.plus1{
+    margin-left: 3698px;
+}
+.plus2{
+    margin-left: 3158px;
+}
+.plus3{
+    margin-left: 3535px;
+}
+.plus4{
+    margin-left: 3635px;
+}
+.plus5{
+    margin-left: 3148px;
+}
+.plus6{
+    margin-left: 3358px;
+}
+.netflix{
+    font-size: 97px;
+    margin-left: 76px !important;
+    margin-top: 40px !important;
+}
+.accordion-body{
+    text-align: left !important;
+    background-color: rgb(41, 41, 41) !important;
+    color: white !important;
+    width: 4680px !important;
+}
+.body-text{
+    margin-left: 30px;
+    font-size: 90px;
+    font-weight: 400;
+    margin-top: 60px;
+}
+.sign-in-repeat{
+    color: white;
+    text-align: center;
+}
+.repeated-caption{
+    font-size: 86px;
+    margin-top: 100px;
+    font-weight: 350;
+    letter-spacing: -1px;
+}
+.get-started-repeat button{
+    position: absolute;
+    color: white;
+    font: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 95px;
+    background-color: rgb(229, 9, 20);
+    border: 0 solid rgb(229, 9, 20);
+    border-radius: 20px;
+    padding: 49px 150px;
+    cursor: pointer !important;
+    margin-top: -252px;
+    margin-left: 352px;
+    margin-bottom: 1000px;
+}
+.get-started-repeat button:hover{
+    background-color: rgba(153, 22, 29);
+}
+.repeated-border{
+    border: 45px solid rgba(88, 88, 88, 0.381);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 300px;
+}
+.footer-contact{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 65px;
+    font-weight: 500;
+    margin-top: 249px;
+    margin-left: 698px;
+    letter-spacing: 2px;
+    margin-bottom: 400px;
+}
+.netflix-footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row: auto;
+    column-gap: 10px;
+    margin-top: 30px;
+}
+.footer-contact button{
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 499;
+    text-decoration: underline;
+    border: 1px solid black;
+    background-color: transparent;
+    line-height: 2.4;
+}
+.dropdown1{
+    position: absolute;
+}
+.dropdown1 button {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-align: left;
+    border-radius: 21px;
+    padding: 10px 88px;
+    margin-left: 4450px;
+    margin-top: 100px;
+    background: transparent;
+}
+.dropdown1 button:hover {
+    border: 1px solid white !important;
+    background-color: transparent !important;
+}
+.dropdown1 img{
+    width: 90px;
+    margin-top: -17px;
+    margin-right: -26px;
+}
+.dropdown1-item{
+    width: 500px !important; 
+    height: 100px;
+    color: black !important;
+    font-size: 70px;
+    border: 1px solid black !important;
+    border-right: none !important;
+    border-left: none !important;
+    text-align: center !important;
+    background-color: white !important;
+}
+.dropdown1-item:hover{
+    background-color: lightskyblue !important;
 }
