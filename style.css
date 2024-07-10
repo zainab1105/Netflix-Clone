@@ -149,7 +149,7 @@ body {
     --bs-body-color-rgb: white !important;
 }
 .form-floating>.form-control, .form-floating>.form-control-plaintext {
-    padding: 8rem 3.75rem !important;
+    padding: 7rem 0.75rem !important;
 }
 #input-caption{
     margin-top: 30px;
@@ -456,18 +456,22 @@ body {
     background-color: transparent;
     line-height: 2.4;
 }
+.brand-origin{
+    margin-top: 236px;
+}
 .dropdown1{
     position: absolute;
 }
 .dropdown1 button {
+    position: absolute;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
     text-align: left;
     border-radius: 21px;
     padding: 10px 88px;
-    margin-left: 4450px;
-    margin-top: 100px;
+    margin-left: 698px;
+    margin-top: -697px;
     background: transparent;
 }
 .dropdown1 button:hover {
